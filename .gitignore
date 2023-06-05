@@ -1,0 +1,9 @@
+
+# dont't ignore me
+!.gitignore
+
+# ignore everything
+*
+
+# and don't ignore files ending with ".something"
+!*.cpp

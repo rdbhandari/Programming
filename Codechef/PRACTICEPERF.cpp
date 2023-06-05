@@ -23,6 +23,5 @@ int main(){
     if(temp > 9){count += 1;} 
 
 
-    cout << temp;
-    return 0;
+    cout << count;
 }
