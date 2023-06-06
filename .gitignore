@@ -7,3 +7,6 @@
 
 # and don't ignore files ending with ".something"
 !*.cpp
+!*.jpeg
+!*.jpg
+!*.pdf
