@@ -5,6 +5,9 @@
 # ignore everything
 *
 
+# ...even if they are in subdirectories
+!*/
+
 # and don't ignore files ending with ".something"
 !*.cpp
 !*.jpeg
