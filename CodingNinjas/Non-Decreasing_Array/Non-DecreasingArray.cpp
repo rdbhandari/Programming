@@ -21,7 +21,6 @@ bool isPossible(int *arr, int n){
 
 int main(){
     int t, n, k, temp;
-    vector <int> arr;
 
     cin >> t;
 

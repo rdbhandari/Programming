@@ -1,22 +1,14 @@
-// https://www.youtube.com/watch?v=iL7oSNc3OXA
-
 #include <bits/stdc++.h> 
 using namespace std;
 
-bool isPossible(int *arr, int n){
-    bool changed = false;
-
-    int pos = -1;
-    for (int i = 0; i < (n-1); i++){
-        if(arr[i] > arr[i+1]){
-            if(pos != -1){
-                return false;
-            }
-            pos = i;
-        }
+int findEquilibriumIndex(vector<int> &arr) {
+    int total_sum = 0;
+    int index = (-1);
+    for (int val : arr){total_sum += val;}
     }
 
-    return pos == (-1) || pos == 0 || pos == (n-2) || arr[pos -1] <=  arr[pos +1] || arr[pos] <=  arr[pos +2];
+     return index;
+
 }
 
 int main(){
@@ -28,10 +20,10 @@ int main(){
     // for each testcase
     for(int i = 0; i < t; i++){
         cin >> n;
-        int arr [n];
         for(int j = 0; j < n; j++){
-            cin >> arr[j]; 
+            cin >> temp;
+            arr.push_back(temp);
         }
-        cout << boolalpha << isPossible(arr, n) << endl;
+        cout << boolalpha << findEquilibriumIndex(arr) << endl;
     }
 }
