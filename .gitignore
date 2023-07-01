@@ -14,6 +14,3 @@
 !*.jpg
 !*.pdf
 !*.prob
-
-# if the files to be tracked are in subdirectories
-!*/*/.cph/*
