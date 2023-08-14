@@ -11,10 +11,13 @@
 # and don't ignore files ending with ".something"
 !*.cpp
 !*.c
+<<<<<<< HEAD
 !*.h
 !*.java
 !*.py
 
+=======
+>>>>>>> 4b48f39a6ec029789dee770ceb844b49baed4943
 !*.jpeg
 !*.jpg
 !*.pdf
