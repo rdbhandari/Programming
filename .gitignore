@@ -10,6 +10,11 @@
 
 # and don't ignore files ending with ".something"
 !*.cpp
+!*.c
+!*.h
+!*.java
+!*.py
+
 !*.jpeg
 !*.jpg
 !*.pdf
